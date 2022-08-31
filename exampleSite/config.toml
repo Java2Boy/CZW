@@ -2,7 +2,7 @@ baseURL = "/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "en-us"
-title = "Hugo Serif Theme"
+title = "固废|危险废物处置-泰能环保"
 
 [module]
   [module.hugoVersion]
@@ -55,22 +55,22 @@ title = "Hugo Serif Theme"
 [menu]
   # Main Menu
   [[menu.main]]
-    name = "Services"
+    name = "服务项目"
     url = "/services/"
     weight = 1
 
   [[menu.main]]
-    name = "Team"
+    name = "团队"
     url = "/team/"
     weight = 2
 
   [[menu.main]]
-    name = "About"
+    name = "关于泰能"
     url = "/about/"
     weight = 3
 
   [[menu.main]]
-    name = "Contact"
+    name = "联系"
     url = "/contact/"
     weight = 4
 
