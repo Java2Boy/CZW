@@ -1,8 +1,8 @@
 baseURL = "/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
-languageCode = "en-us"
-title = "固废|危险废物处置-泰能环保"
+languageCode = "zh-cn"
+title = "过期食品|药品|零部件处置-泰能环保"
 
 [module]
   [module.hugoVersion]
@@ -23,7 +23,7 @@ title = "固废|危险废物处置-泰能环保"
     mobile_height = "36px"
     desktop = "images/logo/logo.svg"
     desktop_height = "36px"
-    alt = "Serif - A Hugo Business Theme"
+    alt = "泰能环保"
 
   [params.fonts]
     # sets the google font link in layouts/partials/google-fonts.html
@@ -50,7 +50,7 @@ title = "固废|危险废物处置-泰能环保"
     summary_large_truncate = 120 # How many characters to include in the summary of the team bios (large layout) before truncating
 
   [params.footer]
-    copyright_text = 'Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+    copyright_text = '网站制件 <a class="zerostatic" href="https://czw.netlify.com">泰能环保</a>'
 
 [menu]
   # Main Menu
@@ -76,11 +76,11 @@ title = "固废|危险废物处置-泰能环保"
 
   # Footer Menu
   [[menu.footer]]
-    name = "Home"
+    name = "回首页"
     url = "/"
     weight = 1
 
   [[menu.footer]]
-    name = "Contact"
+    name = "现在联系"
     url = "/contact/"
     weight = 2
